@@ -8,4 +8,11 @@ let number = 1234; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
-
+let digit1 = 0,
+  sum = 0;
+while (number) {
+  digit1 = number % 10;
+  sum = sum * 10 + digit1;
+  number = parseInt(number / 10);
+}
+console.log(sum);
