@@ -7,4 +7,10 @@ let number = 58423; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
-
+let sum=0,dig=0;
+while(number){
+dig=number%10
+sum+=dig
+number=parseInt(number/10)
+}
+console.log("Sum is " + sum);
