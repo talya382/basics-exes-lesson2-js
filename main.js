@@ -9,3 +9,10 @@ let number = 121; // INPUT
 
 // write your code below this line
 
+let lastDigit = number % 10;      
+let firstDigit = Math.floor(number / 100); 
+if(lastDigit==firstDigit)
+        console.log("is polindrom");
+    else
+        console.log("Not a Palindrome");
+        
