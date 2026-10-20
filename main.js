@@ -9,10 +9,12 @@
 
 // write your code below this line
 let row=5
-for (let index = 0; index <=row; index++) {
+for (let index = 1; index <=row; index++) {
     let num=""
-       for (let i =1; i < index; i++) {
-        num+=i
+       for (let i =1; i <= index; i++) {
+        num+=index
         
        }
+    console.log(num);
+    
 }
