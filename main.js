@@ -11,4 +11,9 @@ let number = 4; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
+for (let i = 1; i < 10; i++) {
+    console.log(`${i}*4= ${i*number}`);
+    
+    
+}
 
