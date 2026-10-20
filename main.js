@@ -7,4 +7,9 @@ let number = 10045; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
-
+let cnt=0
+while(number){
+    number=parseInt(number/10)
+    cnt++
+}
+console.log(cnt)
